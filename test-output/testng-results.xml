@@ -1,71 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-22T14:56:35 EEST" name="Default suite" finished-at="2020-06-22T14:57:10 EEST" duration-ms="34874">
+  <suite started-at="2020-06-25T16:23:22 EEST" name="Default suite" finished-at="2020-06-25T16:23:39 EEST" duration-ms="16832">
     <groups>
     </groups>
-    <test started-at="2020-06-22T14:56:35 EEST" name="Default test" finished-at="2020-06-22T14:57:10 EEST" duration-ms="34874">
-      <class name="AutomationPractice.loginPage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.loginPage@30b7c004]" started-at="2020-06-22T14:56:35 EEST" name="initialize" finished-at="2020-06-22T14:56:47 EEST" duration-ms="12398" status="PASS">
+    <test started-at="2020-06-25T16:23:22 EEST" name="Default test" finished-at="2020-06-25T16:23:39 EEST" duration-ms="16832">
+      <class name="AutomationPractice.addToCard">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.addToCard@342c38f8]" started-at="2020-06-25T16:23:23 EEST" name="initialize" finished-at="2020-06-25T16:23:32 EEST" duration-ms="9711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationPractice.loginPage@30b7c004]" started-at="2020-06-22T14:56:47 EEST" name="Login" data-provider="getData" finished-at="2020-06-22T14:56:52 EEST" duration-ms="4319" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[stanchev.m@abv.bg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Martin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ValidAccount]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="addtoCard()[pri:0, instance:AutomationPractice.addToCard@342c38f8]" started-at="2020-06-25T16:23:32 EEST" name="addtoCard" finished-at="2020-06-25T16:23:39 EEST" duration-ms="7030" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.loginPage@30b7c004]" started-at="2020-06-22T14:56:52 EEST" name="closeTheBrowser" finished-at="2020-06-22T14:56:53 EEST" duration-ms="1396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.loginPage@30b7c004]" started-at="2020-06-22T14:56:53 EEST" name="initialize" finished-at="2020-06-22T14:57:05 EEST" duration-ms="11607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationPractice.loginPage@30b7c004]" started-at="2020-06-22T14:57:05 EEST" name="Login" data-provider="getData" finished-at="2020-06-22T14:57:09 EEST" duration-ms="4231" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalidaccount@abv.bg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[InValidAccount]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.loginPage@30b7c004]" started-at="2020-06-22T14:57:09 EEST" name="closeTheBrowser" finished-at="2020-06-22T14:57:10 EEST" duration-ms="812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTheBrowser -->
-      </class> <!-- AutomationPractice.loginPage -->
+        </test-method> <!-- addtoCard -->
+      </class> <!-- AutomationPractice.addToCard -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

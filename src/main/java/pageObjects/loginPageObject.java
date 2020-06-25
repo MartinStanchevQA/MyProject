@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+public class loginPageObject {
 	
 	public WebDriver driver;
 	
@@ -13,7 +13,7 @@ public class LoginPage {
 	By password = By.id("passwd");
 	By submitButton = By.id("SubmitLogin");
 	
-	public LoginPage (WebDriver driver) {
+	public loginPageObject (WebDriver driver) {
 		this.driver=driver;
 	}
 	

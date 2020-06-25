@@ -7,35 +7,34 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class base{
 	
 	public WebDriver driver;
 	public Properties prop;
+	String projectPath = System.getProperty("user.dir");
 	
 	public WebDriver initializeDriver() throws IOException
 	{
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream("D:\\QA\\Eclipse-workspace\\MavenJava\\src\\main\\java\\Resources\\data.properties");
+		FileInputStream fis=new FileInputStream(projectPath + "\\src\\main\\java\\Resources\\data.properties");
 		
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome"))
 				{
-			System.setProperty("webdriver.chrome.driver","D:\\QA\\Eclipse-workspace\\MavenJava\\chromedriver.exe");
+			String chromePath = projectPath + "\\src\\main\\java\\Resources\\chromedriver.exe";
+			System.setProperty("webdriver.chrome.driver",chromePath);
 			driver=new ChromeDriver();
-			driver.manage().window().fullscreen();
 		}
 		else if(browserName.equals("firefox"))
-		{
-			driver=new FirefoxDriver();
-			driver.manage().window().fullscreen();
+		{	
+			//FireFox code...
 		}
 		else if(browserName.equals("IE"));
 		{
-		   //IE code
+		   //IE code...
 		}
 		
 		

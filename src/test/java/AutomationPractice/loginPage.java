@@ -9,21 +9,23 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Resources.base;
-import pageObjects.LoginPage;
+import pageObjects.loginPageObject;
 
 public class loginPage extends base{
+	
+	loginPageObject lp;
 	
 	@BeforeMethod
 	public void initialize () throws IOException
 	{
 		driver=initializeDriver();
-    	driver.get(prop.getProperty("url"));	
+    	driver.get(prop.getProperty("url"));
 	}
 	
 	@Test(dataProvider="getData")
 	public void Login(String username, String password, String Account) throws IOException //verify if the login form is working
 	{
-    	LoginPage lp = new LoginPage(driver);
+    	lp = new loginPageObject(driver);
     	lp.getLogin().click();
     	Assert.assertEquals(driver.getCurrentUrl(),"http://automationpractice.com/index.php?controller=authentication&back=my-account");
     	lp.emailAdress().sendKeys(username);
