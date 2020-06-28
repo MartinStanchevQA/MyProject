@@ -27,6 +27,7 @@ public class base{
 			String chromePath = projectPath + "\\src\\main\\java\\Resources\\chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver",chromePath);
 			driver=new ChromeDriver();
+			driver.manage().window().maximize();
 		}
 		else if(browserName.equals("firefox"))
 		{	

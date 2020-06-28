@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="methods">
+<suite name="allTests">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="AutomationPractice.HomePage"/> 
+      <class name="AutomationPractice.addToCard"/>
+      <class name="AutomationPractice.verifyLogin"/>
+      <class name="AutomationPractice.verifyLoginDataProvider"/>
+      <class name="AutomationPractice.verifyHomePageElements"/>
     </classes>
-  </test><!-- Test -->
-  <test name="SecondTest">
-  	<classes>
-  	  <class name="AutomationPractice.loginPage"/>
-  </classes>
-  </test>
-</suite> <!-- Suite -->
+  </test> <!-- Test -->
+</suite> <!-- Tests -->

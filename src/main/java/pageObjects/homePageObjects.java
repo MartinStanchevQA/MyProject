@@ -1,7 +1,6 @@
 package pageObjects;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class homePageObjects {
 	
 	public WebDriver driver;
-	
+		
 	By signInButton = By.linkText("Sign in");
 	By contactUsButton = By.cssSelector("a[href*='contact']");
 	By searchBar = By.id("search_query_top");
@@ -21,7 +20,8 @@ public class homePageObjects {
 	By categoryMenu = By.xpath("//*[contains(@class,'sf-menu')]/li");
 	By contactInformation = By.cssSelector("span[class='shop-phone']");
 	By rowmenu = By.xpath("//div[@class='row']/a");
-	By products = By.cssSelector("div.product-container");
+	By blouse = By.cssSelector("img[title='Blouse']");
+	By products = By.xpath("//*[id='homefeature']/a");
 	
 	public homePageObjects(WebDriver driver) {
 		
@@ -80,6 +80,14 @@ public class homePageObjects {
 	public List<WebElement> getProducts()
 	{
 		return driver.findElements(products);
+	}
+	public WebElement getBlouse()
+	{
+		return driver.findElement(blouse);
+	}
+	public int productsDisplayed()
+	{
+		return driver.findElements(products).size();
 	}
 
 }

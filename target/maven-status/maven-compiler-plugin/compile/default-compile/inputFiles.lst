@@ -1,5 +1,5 @@
-D:\QA\Eclipse-workspace\MavenJava\src\main\java\AutomationPractice\loginPage.java
-D:\QA\Eclipse-workspace\MavenJava\src\main\java\pageObjects\LoginPage.java
+D:\QA\Eclipse-workspace\MavenJava\src\main\java\pageObjects\productPage.java
 D:\QA\Eclipse-workspace\MavenJava\src\main\java\Resources\base.java
-D:\QA\Eclipse-workspace\MavenJava\src\main\java\pageObjects\homePage.java
-D:\QA\Eclipse-workspace\MavenJava\src\main\java\AutomationPractice\HomePage.java
+D:\QA\Eclipse-workspace\MavenJava\src\main\java\pageObjects\homePageObjects.java
+D:\QA\Eclipse-workspace\MavenJava\src\main\java\pageObjects\loginPageObject.java
+D:\QA\Eclipse-workspace\MavenJava\src\main\java\pageObjects\myAccountPage.java

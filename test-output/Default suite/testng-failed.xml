@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AutomationPractice.homePage">
+      <class name="AutomationPractice.smokeTest">
         <methods>
-          <include name="verifyContactButton"/>
-          <include name="closeTheBrowser"/>
           <include name="initialize"/>
+          <include name="smokeTest"/>
         </methods>
-      </class> <!-- AutomationPractice.homePage -->
+      </class> <!-- AutomationPractice.smokeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-19T17:07:54 EEST" name="Suite" finished-at="2020-06-19T17:08:35 EEST" duration-ms="41583">
+  <suite started-at="2020-06-28T12:03:34 EEST" name="Tests" finished-at="2020-06-28T12:07:54 EEST" duration-ms="260397">
     <groups>
     </groups>
-    <test started-at="2020-06-19T17:07:54 EEST" name="Test" finished-at="2020-06-19T17:08:35 EEST" duration-ms="41583">
-      <class name="AutomationPractice.loginPage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.loginPage@240237d2]" started-at="2020-06-19T17:08:05 EEST" name="initialize" finished-at="2020-06-19T17:08:15 EEST" duration-ms="9991" status="PASS">
+    <test started-at="2020-06-28T12:03:34 EEST" name="Test" finished-at="2020-06-28T12:07:54 EEST" duration-ms="260397">
+      <class name="AutomationPractice.verifyLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:04:54 EEST" name="initialize" finished-at="2020-06-28T12:05:25 EEST" duration-ms="31597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationPractice.loginPage@240237d2]" started-at="2020-06-19T17:08:15 EEST" name="Login" data-provider="getData" finished-at="2020-06-19T17:08:20 EEST" duration-ms="4506" status="PASS">
+        <test-method signature="verifyLoginWithInValidUserAndValidPassword()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:05:25 EEST" name="verifyLoginWithInValidUserAndValidPassword" finished-at="2020-06-28T12:05:31 EEST" duration-ms="5791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUserAndValidPassword -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:05:31 EEST" name="closeTheBrowser" finished-at="2020-06-28T12:05:34 EEST" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:05:34 EEST" name="initialize" finished-at="2020-06-28T12:05:49 EEST" duration-ms="15690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyLoginWithInvalidUserAndWrongPassword()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:05:49 EEST" name="verifyLoginWithInvalidUserAndWrongPassword" finished-at="2020-06-28T12:05:56 EEST" duration-ms="6834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidUserAndWrongPassword -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:05:56 EEST" name="closeTheBrowser" finished-at="2020-06-28T12:05:58 EEST" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:05:58 EEST" name="initialize" finished-at="2020-06-28T12:06:23 EEST" duration-ms="25099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyLoginWithValidUser()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:06:23 EEST" name="verifyLoginWithValidUser" finished-at="2020-06-28T12:06:30 EEST" duration-ms="6813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUser -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:06:30 EEST" name="closeTheBrowser" finished-at="2020-06-28T12:06:36 EEST" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:06:36 EEST" name="initialize" finished-at="2020-06-28T12:07:01 EEST" duration-ms="25313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyLoginWithValidUserAndWrongPassword()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:07:01 EEST" name="verifyLoginWithValidUserAndWrongPassword" finished-at="2020-06-28T12:07:06 EEST" duration-ms="4327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUserAndWrongPassword -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyLogin@3b938003]" started-at="2020-06-28T12:07:06 EEST" name="closeTheBrowser" finished-at="2020-06-28T12:07:07 EEST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- AutomationPractice.verifyLogin -->
+      <class name="AutomationPractice.verifyLoginDataProvider">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyLoginDataProvider@6f3b5d16]" started-at="2020-06-28T12:07:07 EEST" name="initialize" finished-at="2020-06-28T12:07:23 EEST" duration-ms="15621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationPractice.verifyLoginDataProvider@6f3b5d16]" started-at="2020-06-28T12:07:23 EEST" name="Login" data-provider="getData" finished-at="2020-06-28T12:07:29 EEST" duration-ms="6289" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +82,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationPractice.loginPage@240237d2]" started-at="2020-06-19T17:08:20 EEST" name="Login" data-provider="getData" finished-at="2020-06-19T17:08:32 EEST" duration-ms="12257" status="FAIL">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyLoginDataProvider@6f3b5d16]" started-at="2020-06-28T12:07:29 EEST" name="closeTheBrowser" finished-at="2020-06-28T12:07:30 EEST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyLoginDataProvider@6f3b5d16]" started-at="2020-06-28T12:07:30 EEST" name="initialize" finished-at="2020-06-28T12:07:45 EEST" duration-ms="14436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationPractice.verifyLoginDataProvider@6f3b5d16]" started-at="2020-06-28T12:07:45 EEST" name="Login" data-provider="getData" finished-at="2020-06-28T12:07:50 EEST" duration-ms="5535" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,102 +108,50 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#passwd"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NOR6CNL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\MARTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 211693f0a32e4e64730efd995f95370e
-*** Element info: {Using=id, value=passwd}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#passwd"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NOR6CNL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\MARTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 211693f0a32e4e64730efd995f95370e
-*** Element info: {Using=id, value=passwd}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pageObjects.LoginPage.password(LoginPage.java:25)
-at AutomationPractice.loginPage.Login(loginPage.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.loginPage@240237d2]" started-at="2020-06-19T17:08:35 EEST" name="closeTheBrowser" finished-at="2020-06-19T17:08:35 EEST" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyLoginDataProvider@6f3b5d16]" started-at="2020-06-28T12:07:50 EEST" name="closeTheBrowser" finished-at="2020-06-28T12:07:52 EEST" duration-ms="1784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-      </class> <!-- AutomationPractice.loginPage -->
-      <class name="AutomationPractice.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.HomePage@25a65b77]" started-at="2020-06-19T17:07:54 EEST" name="initialize" finished-at="2020-06-19T17:08:05 EEST" duration-ms="11566" status="PASS">
+      </class> <!-- AutomationPractice.verifyLoginDataProvider -->
+      <class name="AutomationPractice.addToCard">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.addToCard@55a561cf]" started-at="2020-06-28T12:04:08 EEST" name="initialize" finished-at="2020-06-28T12:04:45 EEST" duration-ms="37133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="signInButton()[pri:0, instance:AutomationPractice.HomePage@25a65b77]" started-at="2020-06-19T17:08:32 EEST" name="signInButton" finished-at="2020-06-19T17:08:35 EEST" duration-ms="2536" status="PASS">
+        <test-method signature="addtoCard()[pri:0, instance:AutomationPractice.addToCard@55a561cf]" started-at="2020-06-28T12:04:45 EEST" name="addtoCard" finished-at="2020-06-28T12:04:54 EEST" duration-ms="8135" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signInButton -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.HomePage@25a65b77]" started-at="2020-06-19T17:08:35 EEST" name="closeTheBrowser" finished-at="2020-06-19T17:08:35 EEST" duration-ms="199" status="PASS">
+        </test-method> <!-- addtoCard -->
+      </class> <!-- AutomationPractice.addToCard -->
+      <class name="AutomationPractice.verifyHomePageElements">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyHomePageElements@3d299e3]" started-at="2020-06-28T12:03:34 EEST" name="initialize" finished-at="2020-06-28T12:04:08 EEST" duration-ms="34277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:AutomationPractice.verifyHomePageElements@3d299e3]" started-at="2020-06-28T12:07:52 EEST" name="verifyPageTitle" finished-at="2020-06-28T12:07:52 EEST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method signature="verifyShopPhoneText()[pri:0, instance:AutomationPractice.verifyHomePageElements@3d299e3]" started-at="2020-06-28T12:07:52 EEST" name="verifyShopPhoneText" finished-at="2020-06-28T12:07:52 EEST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopPhoneText -->
+        <test-method signature="verifySignInButton()[pri:0, instance:AutomationPractice.verifyHomePageElements@3d299e3]" started-at="2020-06-28T12:07:52 EEST" name="verifySignInButton" finished-at="2020-06-28T12:07:52 EEST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInButton -->
+        <test-method signature="verifyTheUrl()[pri:0, instance:AutomationPractice.verifyHomePageElements@3d299e3]" started-at="2020-06-28T12:07:52 EEST" name="verifyTheUrl" finished-at="2020-06-28T12:07:52 EEST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUrl -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyHomePageElements@3d299e3]" started-at="2020-06-28T12:07:52 EEST" name="closeTheBrowser" finished-at="2020-06-28T12:07:54 EEST" duration-ms="1925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-      </class> <!-- AutomationPractice.HomePage -->
+      </class> <!-- AutomationPractice.verifyHomePageElements -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Tests -->
 </testng-results>

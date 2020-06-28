@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="10" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-25T16:23:22 EEST" name="Default suite" finished-at="2020-06-25T16:23:39 EEST" duration-ms="16832">
+  <suite started-at="2020-06-28T13:47:24 EEST" name="Smoke" finished-at="2020-06-28T13:48:11 EEST" duration-ms="46707">
     <groups>
+      <group name="smoke">
+        <method signature="addToCard.addtoCard()[pri:0, instance:AutomationPractice.addToCard@54c562f7]" name="addtoCard" class="AutomationPractice.addToCard"/>
+        <method signature="verifyLogin.verifyLoginWithValidUser()[pri:0, instance:AutomationPractice.verifyLogin@318ba8c8]" name="verifyLoginWithValidUser" class="AutomationPractice.verifyLogin"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2020-06-25T16:23:22 EEST" name="Default test" finished-at="2020-06-25T16:23:39 EEST" duration-ms="16832">
-      <class name="AutomationPractice.addToCard">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.addToCard@342c38f8]" started-at="2020-06-25T16:23:23 EEST" name="initialize" finished-at="2020-06-25T16:23:32 EEST" duration-ms="9711" status="PASS">
+    <test started-at="2020-06-28T13:47:24 EEST" name="Test" finished-at="2020-06-28T13:48:11 EEST" duration-ms="46707">
+      <class name="AutomationPractice.verifyLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.verifyLogin@318ba8c8]" started-at="2020-06-28T13:47:52 EEST" name="initialize" finished-at="2020-06-28T13:48:06 EEST" duration-ms="13311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="addtoCard()[pri:0, instance:AutomationPractice.addToCard@342c38f8]" started-at="2020-06-25T16:23:32 EEST" name="addtoCard" finished-at="2020-06-25T16:23:39 EEST" duration-ms="7030" status="PASS">
+        <test-method signature="verifyLoginWithValidUser()[pri:0, instance:AutomationPractice.verifyLogin@318ba8c8]" started-at="2020-06-28T13:48:06 EEST" name="verifyLoginWithValidUser" finished-at="2020-06-28T13:48:10 EEST" duration-ms="4207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUser -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.verifyLogin@318ba8c8]" started-at="2020-06-28T13:48:10 EEST" name="closeTheBrowser" finished-at="2020-06-28T13:48:11 EEST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- AutomationPractice.verifyLogin -->
+      <class name="AutomationPractice.addToCard">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationPractice.addToCard@54c562f7]" started-at="2020-06-28T13:47:24 EEST" name="initialize" finished-at="2020-06-28T13:47:48 EEST" duration-ms="23659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="addtoCard()[pri:0, instance:AutomationPractice.addToCard@54c562f7]" started-at="2020-06-28T13:47:48 EEST" name="addtoCard" finished-at="2020-06-28T13:47:51 EEST" duration-ms="3312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addtoCard -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:AutomationPractice.addToCard@54c562f7]" started-at="2020-06-28T13:47:51 EEST" name="closeTheBrowser" finished-at="2020-06-28T13:47:52 EEST" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
       </class> <!-- AutomationPractice.addToCard -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke -->
 </testng-results>
